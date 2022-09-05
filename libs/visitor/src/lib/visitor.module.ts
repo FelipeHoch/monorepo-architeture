@@ -6,6 +6,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { RouterModule } from '@angular/router';
 import { PoiModule } from '@packt/poi';
@@ -22,6 +23,7 @@ import { MapComponent } from './map/map.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatCardModule,
     PoiModule,
     GoogleMapsModule,
     RouterModule.forChild([
